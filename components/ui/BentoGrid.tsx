@@ -10,9 +10,9 @@ import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 // import { BackgroundGradientAnimation } from "./GradientBg";
-// import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import GridGlobe from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -140,7 +140,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {/* {id === 2 && <GridGlobe />} */}
+          {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (
